@@ -2,24 +2,24 @@
 
 import { useState } from "react";
 import Bot from "./Bot/bot";
-import { Metadata } from "next";
+// import { Metadata } from "next";
 
-export const metadata:Metadata={
-  title: "Hymn Hub - Manage Your Hymn Library",
-  description: "A comprehensive tool for managing and projecting hymn lyrics and notes.,Discover, add, and manage Christian hymns with EasyHymn. Search lyrics, authors, and more for worship and study.",
-  keywords: ["hymns", "Christian hymns", "hymn lyrics", "hymn management", "worship songs", "church music", "hymn projection", "hymn notes", "hymn library", "hymn search"],
-  openGraph:{
-    title: "Hymn Hub - Manage Your Hymn Library",
-    description: "A comprehensive tool for managing and projecting hymn lyrics and notes.,Discover, add, and manage Christian hymns with EasyHymn. Search lyrics, authors, and more for worship and study.",
-    url: "https://hymn-hub.vercel.app/",
-    siteName: "Hymn Hub",
-    images:[
-      {
-        url:''
-      }
-    ]
-  }
-}
+// export const metadata:Metadata={
+//   title: "Hymn Hub - Manage Your Hymn Library",
+//   description: "A comprehensive tool for managing and projecting hymn lyrics and notes.,Discover, add, and manage Christian hymns with EasyHymn. Search lyrics, authors, and more for worship and study.",
+//   keywords: ["hymns", "Christian hymns", "hymn lyrics", "hymn management", "worship songs", "church music", "hymn projection", "hymn notes", "hymn library", "hymn search"],
+//   openGraph:{
+//     title: "Hymn Hub - Manage Your Hymn Library",
+//     description: "A comprehensive tool for managing and projecting hymn lyrics and notes.,Discover, add, and manage Christian hymns with EasyHymn. Search lyrics, authors, and more for worship and study.",
+//     url: "https://hymn-hub.vercel.app/",
+//     siteName: "Hymn Hub",
+//     images:[
+//       {
+//         url:''
+//       }
+//     ]
+//   }
+// }
 
 export default function Hymns() {
   const [searchQuery, setSearchQuery] = useState("");
